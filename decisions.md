@@ -157,7 +157,7 @@
 ### D-035 / Xcodeプロジェクト基本情報
 - **Xcodeプロジェクト名**: `ImazoStorage`（ASCII）
 - **アプリ表示名**: `IMAZO置場管理`（日本語）
-- **Bundle ID**: `dev.matsuokaryoma.imazostorage`
+- **Bundle ID**: `dev.matsuokaryoma.ImazoStorage`
 - **背景**: 個人アカウントで開始。ASCIIと日本語を使い分けてビルド・Git管理のトラブルを避ける
 
 ### D-036 / 開発アカウントは個人で開始
@@ -169,3 +169,18 @@
 - **決定**: `~/Documents/ShipyardPartsApp/` をGitリポジトリとし、仕様書とXcodeプロジェクトを同一リポジトリで管理
 - リモートは当面なし（ローカルのみ）
 - **背景**: 単一の場所に集約して管理しやすくする
+
+---
+
+## 2026-04-25
+
+### D-038 / Bundle ID は大文字Iの `ImazoStorage` を採用
+- **決定**: Bundle ID を `dev.matsuokaryoma.ImazoStorage`（大文字I）とする
+- **背景**: Xcodeのプロジェクト作成時に Product Name から自動生成された値が `dev.matsuokaryoma.ImazoStorage` で、Apple Free Provisioning に既に登録済みだった。小文字に変更しようとしたところ "cannot be registered to your development team because it is not available" エラーが発生（Apple側はBundle IDを大文字小文字区別せず同一とみなすため）。機能的には大文字小文字どちらでも問題なく、プロジェクト名と一致させるほうが自然なため、大文字版を正とする。
+- **影響**: CLAUDE.md / decisions.md (D-035) の Bundle ID 記述を更新済み
+
+### D-039 / 対象端末に iPad を追加
+- **決定**: Supported Destinations に iPhone と iPad を含める（Mac / Apple Vision は除外）
+- **UI設計基準は iPhone SE 第3世代のまま**（D-034 を維持）
+- **背景**: オーナーが iPad でも操作したいため。ただしフェーズ1では iPad 専用最適化（サイドバー等）は行わず、「大きい画面のスマホ」風レイアウトで動作させる
+- **影響**: requirements.md / non_functional.md に対象端末の記述があれば更新が必要

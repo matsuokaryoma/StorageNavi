@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BAD5E0A32F9C6060009D1D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD5E08B2F9C605C009D1D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD5E0922F9C605C009D1D48;
+			remoteInfo = ImazoStorage;
+		};
+		BAD5E0AD2F9C6060009D1D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD5E08B2F9C605C009D1D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD5E0922F9C605C009D1D48;
+			remoteInfo = ImazoStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAD5E0932F9C605C009D1D48 /* ImazoStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImazoStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD5E0A22F9C6060009D1D48 /* ImazoStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImazoStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD5E0AC2F9C6060009D1D48 /* ImazoStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImazoStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BAD5E0952F9C605C009D1D48 /* ImazoStorage */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImazoStorage;
+			sourceTree = "<group>";
+		};
+		BAD5E0A52F9C6060009D1D48 /* ImazoStorageTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImazoStorageTests;
+			sourceTree = "<group>";
+		};
+		BAD5E0AF2F9C6060009D1D48 /* ImazoStorageUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImazoStorageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD5E0902F9C605C009D1D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD5E09F2F9C6060009D1D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD5E0A92F9C6060009D1D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAD5E08A2F9C605B009D1D48 = {
+			isa = PBXGroup;
+			children = (
+				BAD5E0952F9C605C009D1D48 /* ImazoStorage */,
+				BAD5E0A52F9C6060009D1D48 /* ImazoStorageTests */,
+				BAD5E0AF2F9C6060009D1D48 /* ImazoStorageUITests */,
+				BAD5E0942F9C605C009D1D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD5E0942F9C605C009D1D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD5E0932F9C605C009D1D48 /* ImazoStorage.app */,
+				BAD5E0A22F9C6060009D1D48 /* ImazoStorageTests.xctest */,
+				BAD5E0AC2F9C6060009D1D48 /* ImazoStorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD5E0922F9C605C009D1D48 /* ImazoStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD5E0B62F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorage" */;
+			buildPhases = (
+				BAD5E08F2F9C605C009D1D48 /* Sources */,
+				BAD5E0902F9C605C009D1D48 /* Frameworks */,
+				BAD5E0912F9C605C009D1D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BAD5E0952F9C605C009D1D48 /* ImazoStorage */,
+			);
+			name = ImazoStorage;
+			packageProductDependencies = (
+			);
+			productName = ImazoStorage;
+			productReference = BAD5E0932F9C605C009D1D48 /* ImazoStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAD5E0A12F9C6060009D1D48 /* ImazoStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD5E0B92F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageTests" */;
+			buildPhases = (
+				BAD5E09E2F9C6060009D1D48 /* Sources */,
+				BAD5E09F2F9C6060009D1D48 /* Frameworks */,
+				BAD5E0A02F9C6060009D1D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD5E0A42F9C6060009D1D48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BAD5E0A52F9C6060009D1D48 /* ImazoStorageTests */,
+			);
+			name = ImazoStorageTests;
+			packageProductDependencies = (
+			);
+			productName = ImazoStorageTests;
+			productReference = BAD5E0A22F9C6060009D1D48 /* ImazoStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAD5E0AB2F9C6060009D1D48 /* ImazoStorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD5E0BC2F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageUITests" */;
+			buildPhases = (
+				BAD5E0A82F9C6060009D1D48 /* Sources */,
+				BAD5E0A92F9C6060009D1D48 /* Frameworks */,
+				BAD5E0AA2F9C6060009D1D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD5E0AE2F9C6060009D1D48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BAD5E0AF2F9C6060009D1D48 /* ImazoStorageUITests */,
+			);
+			name = ImazoStorageUITests;
+			packageProductDependencies = (
+			);
+			productName = ImazoStorageUITests;
+			productReference = BAD5E0AC2F9C6060009D1D48 /* ImazoStorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD5E08B2F9C605C009D1D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					BAD5E0922F9C605C009D1D48 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					BAD5E0A12F9C6060009D1D48 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BAD5E0922F9C605C009D1D48;
+					};
+					BAD5E0AB2F9C6060009D1D48 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BAD5E0922F9C605C009D1D48;
+					};
+				};
+			};
+			buildConfigurationList = BAD5E08E2F9C605C009D1D48 /* Build configuration list for PBXProject "ImazoStorage" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD5E08A2F9C605B009D1D48;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BAD5E0942F9C605C009D1D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD5E0922F9C605C009D1D48 /* ImazoStorage */,
+				BAD5E0A12F9C6060009D1D48 /* ImazoStorageTests */,
+				BAD5E0AB2F9C6060009D1D48 /* ImazoStorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD5E0912F9C605C009D1D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD5E0A02F9C6060009D1D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD5E0AA2F9C6060009D1D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD5E08F2F9C605C009D1D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD5E09E2F9C6060009D1D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD5E0A82F9C6060009D1D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAD5E0A42F9C6060009D1D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD5E0922F9C605C009D1D48 /* ImazoStorage */;
+			targetProxy = BAD5E0A32F9C6060009D1D48 /* PBXContainerItemProxy */;
+		};
+		BAD5E0AE2F9C6060009D1D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD5E0922F9C605C009D1D48 /* ImazoStorage */;
+			targetProxy = BAD5E0AD2F9C6060009D1D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAD5E0B42F9C6060009D1D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAD5E0B52F9C6060009D1D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD5E0B72F9C6060009D1D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAD5E0B82F9C6060009D1D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAD5E0BA2F9C6060009D1D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImazoStorage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImazoStorage";
+			};
+			name = Debug;
+		};
+		BAD5E0BB2F9C6060009D1D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImazoStorage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImazoStorage";
+			};
+			name = Release;
+		};
+		BAD5E0BD2F9C6060009D1D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImazoStorage;
+			};
+			name = Debug;
+		};
+		BAD5E0BE2F9C6060009D1D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86CG87SY2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImazoStorage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD5E08E2F9C605C009D1D48 /* Build configuration list for PBXProject "ImazoStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD5E0B42F9C6060009D1D48 /* Debug */,
+				BAD5E0B52F9C6060009D1D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD5E0B62F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD5E0B72F9C6060009D1D48 /* Debug */,
+				BAD5E0B82F9C6060009D1D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD5E0B92F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD5E0BA2F9C6060009D1D48 /* Debug */,
+				BAD5E0BB2F9C6060009D1D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD5E0BC2F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD5E0BD2F9C6060009D1D48 /* Debug */,
+				BAD5E0BE2F9C6060009D1D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD5E08B2F9C605C009D1D48 /* Project object */;
+}

@@ -8,7 +8,7 @@
 |---|---|
 | Xcodeプロジェクト名 | `ImazoStorage` |
 | アプリ表示名 | `IMAZO置場管理` |
-| Bundle ID | `dev.matsuokaryoma.imazostorage` |
+| Bundle ID | `dev.matsuokaryoma.ImazoStorage` |
 | 最低対応iOS | iOS 17.0 |
 | 言語 | Swift |
 | UI | SwiftUI |
