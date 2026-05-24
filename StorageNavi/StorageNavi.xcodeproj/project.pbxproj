@@ -12,37 +12,37 @@
 			containerPortal = BAD5E08B2F9C605C009D1D48 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BAD5E0922F9C605C009D1D48;
-			remoteInfo = ImazoStorage;
+			remoteInfo = StorageNavi;
 		};
 		BAD5E0AD2F9C6060009D1D48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BAD5E08B2F9C605C009D1D48 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BAD5E0922F9C605C009D1D48;
-			remoteInfo = ImazoStorage;
+			remoteInfo = StorageNavi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BAD5E0932F9C605C009D1D48 /* ImazoStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImazoStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAD5E0A22F9C6060009D1D48 /* ImazoStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImazoStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAD5E0AC2F9C6060009D1D48 /* ImazoStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImazoStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD5E0932F9C605C009D1D48 /* StorageNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD5E0A22F9C6060009D1D48 /* StorageNaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageNaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD5E0AC2F9C6060009D1D48 /* StorageNaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageNaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BAD5E0952F9C605C009D1D48 /* ImazoStorage */ = {
+		BAD5E0952F9C605C009D1D48 /* StorageNavi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ImazoStorage;
+			path = StorageNavi;
 			sourceTree = "<group>";
 		};
-		BAD5E0A52F9C6060009D1D48 /* ImazoStorageTests */ = {
+		BAD5E0A52F9C6060009D1D48 /* StorageNaviTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ImazoStorageTests;
+			path = StorageNaviTests;
 			sourceTree = "<group>";
 		};
-		BAD5E0AF2F9C6060009D1D48 /* ImazoStorageUITests */ = {
+		BAD5E0AF2F9C6060009D1D48 /* StorageNaviUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ImazoStorageUITests;
+			path = StorageNaviUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		BAD5E08A2F9C605B009D1D48 = {
 			isa = PBXGroup;
 			children = (
-				BAD5E0952F9C605C009D1D48 /* ImazoStorage */,
-				BAD5E0A52F9C6060009D1D48 /* ImazoStorageTests */,
-				BAD5E0AF2F9C6060009D1D48 /* ImazoStorageUITests */,
+				BAD5E0952F9C605C009D1D48 /* StorageNavi */,
+				BAD5E0A52F9C6060009D1D48 /* StorageNaviTests */,
+				BAD5E0AF2F9C6060009D1D48 /* StorageNaviUITests */,
 				BAD5E0942F9C605C009D1D48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		BAD5E0942F9C605C009D1D48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAD5E0932F9C605C009D1D48 /* ImazoStorage.app */,
-				BAD5E0A22F9C6060009D1D48 /* ImazoStorageTests.xctest */,
-				BAD5E0AC2F9C6060009D1D48 /* ImazoStorageUITests.xctest */,
+				BAD5E0932F9C605C009D1D48 /* StorageNavi.app */,
+				BAD5E0A22F9C6060009D1D48 /* StorageNaviTests.xctest */,
+				BAD5E0AC2F9C6060009D1D48 /* StorageNaviUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAD5E0922F9C605C009D1D48 /* ImazoStorage */ = {
+		BAD5E0922F9C605C009D1D48 /* StorageNavi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAD5E0B62F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorage" */;
+			buildConfigurationList = BAD5E0B62F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "StorageNavi" */;
 			buildPhases = (
 				BAD5E08F2F9C605C009D1D48 /* Sources */,
 				BAD5E0902F9C605C009D1D48 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BAD5E0952F9C605C009D1D48 /* ImazoStorage */,
+				BAD5E0952F9C605C009D1D48 /* StorageNavi */,
 			);
-			name = ImazoStorage;
+			name = StorageNavi;
 			packageProductDependencies = (
 			);
-			productName = ImazoStorage;
-			productReference = BAD5E0932F9C605C009D1D48 /* ImazoStorage.app */;
+			productName = StorageNavi;
+			productReference = BAD5E0932F9C605C009D1D48 /* StorageNavi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BAD5E0A12F9C6060009D1D48 /* ImazoStorageTests */ = {
+		BAD5E0A12F9C6060009D1D48 /* StorageNaviTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAD5E0B92F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageTests" */;
+			buildConfigurationList = BAD5E0B92F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "StorageNaviTests" */;
 			buildPhases = (
 				BAD5E09E2F9C6060009D1D48 /* Sources */,
 				BAD5E09F2F9C6060009D1D48 /* Frameworks */,
@@ -131,18 +131,18 @@
 				BAD5E0A42F9C6060009D1D48 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BAD5E0A52F9C6060009D1D48 /* ImazoStorageTests */,
+				BAD5E0A52F9C6060009D1D48 /* StorageNaviTests */,
 			);
-			name = ImazoStorageTests;
+			name = StorageNaviTests;
 			packageProductDependencies = (
 			);
-			productName = ImazoStorageTests;
-			productReference = BAD5E0A22F9C6060009D1D48 /* ImazoStorageTests.xctest */;
+			productName = StorageNaviTests;
+			productReference = BAD5E0A22F9C6060009D1D48 /* StorageNaviTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BAD5E0AB2F9C6060009D1D48 /* ImazoStorageUITests */ = {
+		BAD5E0AB2F9C6060009D1D48 /* StorageNaviUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAD5E0BC2F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageUITests" */;
+			buildConfigurationList = BAD5E0BC2F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "StorageNaviUITests" */;
 			buildPhases = (
 				BAD5E0A82F9C6060009D1D48 /* Sources */,
 				BAD5E0A92F9C6060009D1D48 /* Frameworks */,
@@ -154,13 +154,13 @@
 				BAD5E0AE2F9C6060009D1D48 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BAD5E0AF2F9C6060009D1D48 /* ImazoStorageUITests */,
+				BAD5E0AF2F9C6060009D1D48 /* StorageNaviUITests */,
 			);
-			name = ImazoStorageUITests;
+			name = StorageNaviUITests;
 			packageProductDependencies = (
 			);
-			productName = ImazoStorageUITests;
-			productReference = BAD5E0AC2F9C6060009D1D48 /* ImazoStorageUITests.xctest */;
+			productName = StorageNaviUITests;
+			productReference = BAD5E0AC2F9C6060009D1D48 /* StorageNaviUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BAD5E08E2F9C605C009D1D48 /* Build configuration list for PBXProject "ImazoStorage" */;
+			buildConfigurationList = BAD5E08E2F9C605C009D1D48 /* Build configuration list for PBXProject "StorageNavi" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAD5E0922F9C605C009D1D48 /* ImazoStorage */,
-				BAD5E0A12F9C6060009D1D48 /* ImazoStorageTests */,
-				BAD5E0AB2F9C6060009D1D48 /* ImazoStorageUITests */,
+				BAD5E0922F9C605C009D1D48 /* StorageNavi */,
+				BAD5E0A12F9C6060009D1D48 /* StorageNaviTests */,
+				BAD5E0AB2F9C6060009D1D48 /* StorageNaviUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		BAD5E0A42F9C6060009D1D48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BAD5E0922F9C605C009D1D48 /* ImazoStorage */;
+			target = BAD5E0922F9C605C009D1D48 /* StorageNavi */;
 			targetProxy = BAD5E0A32F9C6060009D1D48 /* PBXContainerItemProxy */;
 		};
 		BAD5E0AE2F9C6060009D1D48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BAD5E0922F9C605C009D1D48 /* ImazoStorage */;
+			target = BAD5E0922F9C605C009D1D48 /* StorageNavi */;
 			targetProxy = BAD5E0AD2F9C6060009D1D48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,7 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 86CG87SY2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "置場ナビ";
@@ -413,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorage;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.StorageNavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -432,7 +432,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 86CG87SY2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "置場ナビ";
@@ -448,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorage;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.StorageNavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -470,12 +470,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.StorageNaviTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImazoStorage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImazoStorage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorageNavi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StorageNavi";
 			};
 			name = Debug;
 		};
@@ -489,12 +489,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.StorageNaviTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImazoStorage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImazoStorage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorageNavi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StorageNavi";
 			};
 			name = Release;
 		};
@@ -506,12 +506,12 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.StorageNaviUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImazoStorage;
+				TEST_TARGET_NAME = StorageNavi;
 			};
 			name = Debug;
 		};
@@ -523,19 +523,19 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.ImazoStorageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.matsuokaryoma.StorageNaviUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImazoStorage;
+				TEST_TARGET_NAME = StorageNavi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAD5E08E2F9C605C009D1D48 /* Build configuration list for PBXProject "ImazoStorage" */ = {
+		BAD5E08E2F9C605C009D1D48 /* Build configuration list for PBXProject "StorageNavi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAD5E0B42F9C6060009D1D48 /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAD5E0B62F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorage" */ = {
+		BAD5E0B62F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "StorageNavi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAD5E0B72F9C6060009D1D48 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAD5E0B92F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageTests" */ = {
+		BAD5E0B92F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "StorageNaviTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAD5E0BA2F9C6060009D1D48 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAD5E0BC2F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "ImazoStorageUITests" */ = {
+		BAD5E0BC2F9C6060009D1D48 /* Build configuration list for PBXNativeTarget "StorageNaviUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAD5E0BD2F9C6060009D1D48 /* Debug */,

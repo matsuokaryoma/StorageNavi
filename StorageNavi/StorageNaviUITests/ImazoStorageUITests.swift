@@ -1,13 +1,13 @@
 //
-//  ImazoStorageUITests.swift
-//  ImazoStorageUITests
+//  StorageNaviUITests.swift
+//  StorageNaviUITests
 //
 //  Created by リョーマ on 2026/04/25.
 //
 
 import XCTest
 
-final class ImazoStorageUITests: XCTestCase {
+final class StorageNaviUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -21,8 +21,8 @@
 ## プロジェクト基本情報
 
 - **アプリ表示名**: IMAZO置場管理
-- **Xcodeプロジェクト名**: ImazoStorage
-- **Bundle ID**: `dev.matsuokaryoma.ImazoStorage`
+- **Xcodeプロジェクト名**: StorageNavi
+- **Bundle ID**: `dev.matsuokaryoma.StorageNavi`
 - **最低対応iOS**: 17.0（SwiftData利用のため）
 - **基準端末**: iPhone SE 第3世代（4.7"）
 - **言語/UI**: Swift / SwiftUI
@@ -42,7 +42,7 @@
 ## ディレクトリ構成（Xcodeプロジェクト内）
 
 ```
-ImazoStorage/
+StorageNavi/
 ├── App/            アプリエントリポイント
 ├── Models/         SwiftData エンティティ（Part, PartEvent）
 ├── Views/          SwiftUI画面（HomeView, CameraOCRView, PartDetailView, SearchView, SearchResultsView）

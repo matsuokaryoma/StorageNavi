@@ -1,13 +1,13 @@
 //
-//  ImazoStorageUITestsLaunchTests.swift
-//  ImazoStorageUITests
+//  StorageNaviUITestsLaunchTests.swift
+//  StorageNaviUITests
 //
 //  Created by リョーマ on 2026/04/25.
 //
 
 import XCTest
 
-final class ImazoStorageUITestsLaunchTests: XCTestCase {
+final class StorageNaviUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

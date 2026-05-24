@@ -6,9 +6,9 @@
 
 | 項目 | 値 |
 |---|---|
-| Xcodeプロジェクト名 | `ImazoStorage` |
+| Xcodeプロジェクト名 | `StorageNavi` |
 | アプリ表示名 | `IMAZO置場管理` |
-| Bundle ID | `dev.matsuokaryoma.ImazoStorage` |
+| Bundle ID | `dev.matsuokaryoma.StorageNavi` |
 | 最低対応iOS | iOS 17.0 |
 | 言語 | Swift |
 | UI | SwiftUI |
@@ -24,9 +24,9 @@
 │   requirements.md / decisions.md / screens.md /
 │   data_model.md / non_functional.md / xcode_project.md
 ├── .gitignore
-└── ImazoStorage/                    ← Xcodeプロジェクト
-    ├── ImazoStorage.xcodeproj
-    └── ImazoStorage/
+└── StorageNavi/                    ← Xcodeプロジェクト
+    ├── StorageNavi.xcodeproj
+    └── StorageNavi/
         ├── App/            アプリエントリポイント
         ├── Models/         SwiftDataのエンティティ（Part, PartEvent）
         ├── Views/          SwiftUI画面

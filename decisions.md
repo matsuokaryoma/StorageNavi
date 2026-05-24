@@ -155,9 +155,9 @@
 - **背景**: 対象端末の中で最も狭いため。ここで崩れなければ大きい画面でも問題ない
 
 ### D-035 / Xcodeプロジェクト基本情報
-- **Xcodeプロジェクト名**: `ImazoStorage`（ASCII）
+- **Xcodeプロジェクト名**: `StorageNavi`（ASCII）
 - **アプリ表示名**: `IMAZO置場管理`（日本語）
-- **Bundle ID**: `dev.matsuokaryoma.ImazoStorage`
+- **Bundle ID**: `dev.matsuokaryoma.StorageNavi`
 - **背景**: 個人アカウントで開始。ASCIIと日本語を使い分けてビルド・Git管理のトラブルを避ける
 
 ### D-036 / 開発アカウントは個人で開始
@@ -174,9 +174,9 @@
 
 ## 2026-04-25
 
-### D-038 / Bundle ID は大文字Iの `ImazoStorage` を採用
-- **決定**: Bundle ID を `dev.matsuokaryoma.ImazoStorage`（大文字I）とする
-- **背景**: Xcodeのプロジェクト作成時に Product Name から自動生成された値が `dev.matsuokaryoma.ImazoStorage` で、Apple Free Provisioning に既に登録済みだった。小文字に変更しようとしたところ "cannot be registered to your development team because it is not available" エラーが発生（Apple側はBundle IDを大文字小文字区別せず同一とみなすため）。機能的には大文字小文字どちらでも問題なく、プロジェクト名と一致させるほうが自然なため、大文字版を正とする。
+### D-038 / Bundle ID は大文字Iの `StorageNavi` を採用
+- **決定**: Bundle ID を `dev.matsuokaryoma.StorageNavi`（大文字I）とする
+- **背景**: Xcodeのプロジェクト作成時に Product Name から自動生成された値が `dev.matsuokaryoma.StorageNavi` で、Apple Free Provisioning に既に登録済みだった。小文字に変更しようとしたところ "cannot be registered to your development team because it is not available" エラーが発生（Apple側はBundle IDを大文字小文字区別せず同一とみなすため）。機能的には大文字小文字どちらでも問題なく、プロジェクト名と一致させるほうが自然なため、大文字版を正とする。
 - **影響**: CLAUDE.md / decisions.md (D-035) の Bundle ID 記述を更新済み
 
 ### D-040 / QRコード登録モードを追加

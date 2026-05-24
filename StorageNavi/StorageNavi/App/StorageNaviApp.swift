@@ -1,5 +1,5 @@
 //
-//  ImazoStorageApp.swift
+//  StorageNaviApp.swift
 //  ImazoStorage
 //
 //  Created by リョーマ on 2026/04/25.
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct ImazoStorageApp: App {
+struct StorageNaviApp: App {
     // SwiftData の永続化コンテナ。Part と PartEvent の2エンティティを登録する
     // D-032: ストアファイルの保存先を明示指定し、iCloud バックアップ対象外にする
     var sharedModelContainer: ModelContainer = {
@@ -17,7 +17,7 @@ struct ImazoStorageApp: App {
 
         // Application Support 直下にストアファイルを置く
         let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        let storeURL   = appSupport.appendingPathComponent("ImazoStorage.store")
+        let storeURL   = appSupport.appendingPathComponent("StorageNavi.store")
         let config     = ModelConfiguration(schema: schema, url: storeURL)
 
         do {
