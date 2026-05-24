@@ -179,6 +179,19 @@
 - **背景**: Xcodeのプロジェクト作成時に Product Name から自動生成された値が `dev.matsuokaryoma.ImazoStorage` で、Apple Free Provisioning に既に登録済みだった。小文字に変更しようとしたところ "cannot be registered to your development team because it is not available" エラーが発生（Apple側はBundle IDを大文字小文字区別せず同一とみなすため）。機能的には大文字小文字どちらでも問題なく、プロジェクト名と一致させるほうが自然なため、大文字版を正とする。
 - **影響**: CLAUDE.md / decisions.md (D-035) の Bundle ID 記述を更新済み
 
+### D-040 / QRコード登録モードを追加
+- **決定**: カメラでQRコードをリアルタイムスキャンして登録する経路を追加する
+- **動作**: QRコード検出と同時に①触覚フィードバック②静止画を自動撮影③GPS取得 → 詳細画面（登録モード）へ遷移
+- **UI**: ホーム画面に「QRコードで登録」ボタンを追加。スキャン画面はターゲット枠を表示するライブプレビュー
+- **パーツ名の初期値**: QRコードの読み取り値をそのままセット（ユーザーが確認・修正可能）
+- **写真の扱い**: QRコード検出時の静止画を D-023 と同じく1枚目の写真として登録
+- **ocrRawText の扱い**: QR登録の場合もQRコード値を `ocrRawText` に保存。詳細画面のラベルを「OCR読み取りテキスト」→「スキャンテキスト」に変更して両者に対応
+- **背景**: 印字が不鮮明でOCRが難しいパーツにQRコードシールを貼る運用ニーズがある
+
+---
+
+## 2026-04-25
+
 ### D-039 / 対象端末に iPad を追加
 - **決定**: Supported Destinations に iPhone と iPad を含める（Mac / Apple Vision は除外）
 - **UI設計基準は iPhone SE 第3世代のまま**（D-034 を維持）

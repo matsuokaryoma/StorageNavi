@@ -20,5 +20,9 @@ Pods/
 # 実行時の一時ファイル
 *.log
 
+# 一時作業ディレクトリ
+.tmp-slides/
+.tmp_review/
+
 # 個人端末の写真保存先（実機テストで出る可能性）
 ImazoStorage/LocalData/
