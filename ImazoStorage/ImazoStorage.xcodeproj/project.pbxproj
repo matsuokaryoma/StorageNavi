@@ -401,8 +401,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "置場ナビ";
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "パーツに印字された文字をカメラで読み取り、置場に登録するために使用します。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "パーツを登録・更新するときに現在地を取得し、置場の位置情報として記録するために使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -436,8 +436,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "置場ナビ";
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "パーツに印字された文字をカメラで読み取り、置場に登録するために使用します。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "パーツを登録・更新するときに現在地を取得し、置場の位置情報として記録するために使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
