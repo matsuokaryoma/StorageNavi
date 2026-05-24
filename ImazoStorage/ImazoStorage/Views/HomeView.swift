@@ -16,10 +16,10 @@ struct HomeView: View {
                         .font(.system(size: 64))
                         .foregroundStyle(.tint)
 
-                    Text("IMAZO置場管理")
+                    Text("置場ナビ")
                         .font(.title.bold())
 
-                    Text("鉄板パーツの置場を記録・検索")
+                    Text("アイテムの置場を記録・検索")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }

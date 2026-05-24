@@ -90,7 +90,7 @@ private struct IPadRootView: View {
                     .tag(SidebarItem.auditLog)
             }
             .listStyle(.sidebar)
-            .navigationTitle("IMAZO置場管理")
+            .navigationTitle("置場ナビ")
             .navigationBarTitleDisplayMode(.inline)
             // 登録ボタン（常にサイドバー上部に固定表示）
             .safeAreaInset(edge: .top, spacing: 0) {

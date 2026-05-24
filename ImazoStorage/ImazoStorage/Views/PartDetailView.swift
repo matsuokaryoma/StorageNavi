@@ -122,8 +122,8 @@ struct PartDetailView: View {
             Button("使用済みにする", role: .destructive) { markAsUsed() }
             Button("キャンセル", role: .cancel) {}
         }
-        .alert("置場に戻しますか？", isPresented: $showReturnToStorageAlert) {
-            Button("置場に戻す") { returnToStorage() }
+        .alert("保管中に戻しますか？", isPresented: $showReturnToStorageAlert) {
+            Button("保管中に戻す") { returnToStorage() }
             Button("キャンセル", role: .cancel) {}
         }
         .alert("位置情報を更新しますか？", isPresented: $showLocationUpdateAlert) {
@@ -475,11 +475,11 @@ struct PartDetailView: View {
                 }
 
             } else {
-                // 使用済み: 置場に戻す のみ
+                // 使用済み: 保管中に戻す のみ
                 Button {
                     showReturnToStorageAlert = true
                 } label: {
-                    Text("置場に戻す")
+                    Text("保管中に戻す")
                         .font(.title3.bold())
                         .frame(maxWidth: .infinity)
                         .frame(height: 56)
@@ -723,7 +723,7 @@ struct PartDetailView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { dismiss() }
     }
 
-    // 置場に戻す（位置情報は変えない D-013）
+    // 保管中に戻す（位置情報は変えない D-013）
     private func returnToStorage() {
         guard let part = existingPart else { return }
         let deviceId = userSettings.deviceId
@@ -732,7 +732,7 @@ struct PartDetailView: View {
         part.updatedAt = Date()
         part.updatedBy = userSettings.userName
         addEvent(.returnedToStorage, to: part, deviceId: deviceId)
-        toastMessage = "置場に戻しました"
+        toastMessage = "保管中に戻しました"
         withAnimation { showSaveSuccess = true }
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { dismiss() }
     }

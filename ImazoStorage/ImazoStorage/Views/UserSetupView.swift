@@ -18,7 +18,7 @@ struct UserSetupView: View {
                     .font(.system(size: 64))
                     .foregroundStyle(.tint)
 
-                Text("IMAZO置場管理")
+                Text("置場ナビ")
                     .font(.title.bold())
 
                 Text("ようこそ")

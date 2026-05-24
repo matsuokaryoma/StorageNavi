@@ -56,9 +56,9 @@ final class CSVExportService {
             throw ExportError.encodingFailed
         }
 
-        // ファイル名: IMAZOデータ_20260426_1430.csv
+        // ファイル名: 置場ナビデータ_20260426_1430.csv
         let stamp    = fileNameDateFormatter.string(from: Date())
-        let fileName = "IMAZOデータ_\(stamp).csv"
+        let fileName = "置場ナビデータ_\(stamp).csv"
         let url      = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
 
         try data.write(to: url, options: .atomic)

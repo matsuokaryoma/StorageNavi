@@ -12,11 +12,11 @@ struct AllPartsMapView: View {
     )
     private var parts: [Part]
 
-    // カメラ位置: 初期値は今治港周辺（造船所エリア）
+    // カメラ位置: パーツがなければ日本中心付近を表示。onAppear で全パーツに自動フィットする
     @State private var cameraPosition: MapCameraPosition = .region(
         MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 34.0700, longitude: 133.0000),
-            span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
+            center: CLLocationCoordinate2D(latitude: 35.6812, longitude: 139.7671),
+            span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
         )
     )
 

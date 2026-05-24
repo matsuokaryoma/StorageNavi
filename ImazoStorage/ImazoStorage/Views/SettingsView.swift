@@ -123,7 +123,7 @@ struct SettingsView: View {
 
     #if DEBUG
     // テストデータを追加する（開発・動作確認用）
-    // 今治造船所周辺（34.07°N, 133.00°E）の架空座標を使用
+    // 東京都心付近（35.68°N, 139.77°E）の架空座標を使用
     private func insertSampleData() {
         let actor    = userSettings.userName.isEmpty ? "テストユーザー" : userSettings.userName
         let deviceId = userSettings.deviceId
@@ -135,12 +135,12 @@ struct SettingsView: View {
             let notes: String?; let daysAgo: Double
         }
         let samples: [Sample] = [
-            Sample(name: "H鋼-A12",        status: .inStorage, lat: 34.0712, lon: 133.0021, notes: "加工済み・面取り完了",    daysAgo:  3),
-            Sample(name: "鉄板-B7",        status: .inStorage, lat: 34.0698, lon: 132.9988, notes: nil,                     daysAgo:  1),
-            Sample(name: "フレーム-C3",    status: .used,      lat: 34.0725, lon: 133.0045, notes: "第3船台へ搬入済み",      daysAgo: 10),
-            Sample(name: "Uチャンネル-D9", status: .inStorage, lat: 34.0681, lon: 132.9972, notes: "サイズ: 200×90×9mm",    daysAgo:  5),
-            Sample(name: "ブラケット-E5",  status: .inStorage, lat: 34.0734, lon: 133.0008, notes: nil,                     daysAgo:  2),
-            Sample(name: "プレート-F1",    status: .used,      lat: 34.0659, lon: 132.9961, notes: "船殻溶接完了",           daysAgo: 15),
+            Sample(name: "アイテム-A12",   status: .inStorage, lat: 35.6812, lon: 139.7671, notes: "確認済み",           daysAgo:  3),
+            Sample(name: "アイテム-B7",    status: .inStorage, lat: 35.6798, lon: 139.7688, notes: nil,                  daysAgo:  1),
+            Sample(name: "アイテム-C3",    status: .used,      lat: 35.6825, lon: 139.7645, notes: "搬出済み",           daysAgo: 10),
+            Sample(name: "アイテム-D9",    status: .inStorage, lat: 35.6781, lon: 139.7702, notes: "サイズ: 200×90×9mm", daysAgo:  5),
+            Sample(name: "アイテム-E5",    status: .inStorage, lat: 35.6834, lon: 139.7658, notes: nil,                  daysAgo:  2),
+            Sample(name: "アイテム-F1",    status: .used,      lat: 35.6759, lon: 139.7631, notes: "使用完了",           daysAgo: 15),
         ]
 
         for s in samples {

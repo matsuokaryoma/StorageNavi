@@ -18,7 +18,7 @@ enum PartEventType: String, Codable {
         case .registered:        return "登録"
         case .edited:            return "編集"
         case .markedAsUsed:      return "使用済みに変更"
-        case .returnedToStorage: return "置場に戻した"
+        case .returnedToStorage: return "保管中に戻した"
         case .locationUpdated:   return "位置情報更新"
         case .photoAdded:        return "写真追加"
         case .photoReplaced:     return "写真差し替え"
